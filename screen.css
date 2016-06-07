@@ -1,0 +1,242 @@
+/* reset marginesów oraz dopełnień */
+html, body, ul, li { margin: 0; padding: 0;}
+
+/* reset wysokości linii i fontu */
+h1, h2, ul, li, p { margin: 0; padding: 0; font-size: 1em; line-height: 1.5em;}
+
+/* ustawienia globalne */
+body { font: 0.625em/1.5em tahoma, verdana, arial, sans-serif; background-color: #f3f3f3;}
+
+/* szerokość strony */
+.content {width: 960px;}
+
+/* resetowanie ramek obrazków */
+a img {border: none;}
+
+/* header */
+#header {
+	position: relative;
+	height: 165px;
+	border-bottom: 1px solid #fff;
+	background: #272321 url(../images/header-tlo.jpg) no-repeat;
+	}
+	
+#header h1 {
+	position: absolute;
+	top: 69px;
+	left: 55px;
+	overflow: hidden;
+	}
+	
+#header h1 a {
+	display: block;
+	width: 254px;
+	height: 78px;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -666em;
+	}
+	
+#header ul { 
+	overflow: hidden; 
+	position: absolute; 
+	bottom: 0; 
+	left: 353px; 
+	list-style: none;
+}
+#header ul li { 
+	float: left; 
+	margin-right: 1px; 
+	background: url(../images/menu-left.gif) top left no-repeat;
+}
+#header ul li a { 
+	display: block; 
+	padding: 11px 26px 10px; 
+	color: #000; 
+	font: bold 1.1em tahoma, verdana, arial, sans-serif; 
+	text-decoration: none; 
+	background: url(../images/menu-right.gif) top right no-repeat;
+}
+
+/* slogan */
+#slogan {
+	background: #3297cf url(../images/tlo-main-powielane.jpg) repeat-x; 
+	border-bottom: 1px #fff solid;
+	position: relative;
+	}
+#slogan .content {
+	background: url(../images/tlo-main.jpg) top left no-repeat;
+	height: 231px;
+	}
+#slogan .content #motto {	
+	position: absolute;
+	top: 80px;
+	left: 388px;
+	overflow: hidden;
+	}
+	
+#slogan .content #motto a {
+	display: block;
+	width: 332px;
+	height: 91px;
+	text-indent: -666em;
+	background: url(../images/slogan.png) no-repeat;
+	}
+
+/* main */
+#main {
+	background: #fff url(../images/main-bg.gif) top left repeat-x;
+	border-bottom: #d5d8d6 1px solid;
+	}
+#main .content {
+	overflow: hidden;
+	}
+#main .column {
+	float: left;
+	margin-left: 63px;
+	}
+#main .box {
+	width: 325px;
+	padding: 28px 14px 14px;
+	margin-bottom: 34px;
+	}
+#main .box p {
+	font: 1.1em arial, tahoma, sans-serif;
+	color: #333132
+	}
+#main .box.szary {
+	background: #8b8181 url(../images/main-box-rouded.gif) 0 100% no-repeat;
+	}
+#main .box.szary h2 { 
+	display: none;
+}
+#main .box.szary p {
+	color: #fff;
+	}
+	
+#main .box.firma h2 {
+	background: url(../images/o-firmie.gif) no-repeat;
+	text-indent: -666em;
+	width: 359px;
+	height: 52px;
+}
+#main .box.kwalifikacje h2 {
+	background: url(../images/najwyzsze.gif) no-repeat;
+	text-indent: -666em;
+	width: 359px;
+	height: 52px;
+}
+#main .box.biznes h2 {
+	background: url(../images/rozwijamy.gif) no-repeat;
+	text-indent: -666em;
+	width: 359px;
+	height: 52px;
+}
+
+#main .box.kwalifikacje {
+	background: url(../images/zegar.gif) 0 30px no-repeat;
+	padding-left: 110px;
+	}
+#main .box.biznes {
+	background: url(../images/rece.gif) 0 30px no-repeat;
+	padding-left: 110px;
+	margin-top: -25px
+	}
+
+#main .wiecej {
+	text-align: right;
+	}
+#main .wiecej a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #999;
+	background: url(../images/strzalka-wiecej.gif) 100% 50% no-repeat;
+	padding-right: 15px;
+	display: block;
+	outline: none;
+	}
+
+/* footer */
+#footer {
+	background: #f3f3f3;
+	}
+#footer #footer-image {
+	float: left;
+	margin: 16px 48px 10px 71px;
+	}
+#footer ul {
+	list-style: none;
+	width: 555px;
+	overflow: hidden;
+	padding-top: 40px;
+	}
+#footer ul li {
+	float: left;
+	margin: 0 19px;
+	border-right: 1px #686868 solid;
+	}
+#footer ul li a {
+	display: block;
+	width: 122px;
+	padding: 0 12px;
+	font: 1em verdana, sans-serif;
+	background: url(../images/strzalka-footer.gif) 0 50% no-repeat;
+	color: #686868;
+	text-decoration: none;
+	}
+#footer #footer-copyright {
+	clear: left;
+	padding: 19px 0 19px 67px;
+	font: bold 1.1em tahoma, verdana, arial, sans-serif;
+	color: #cacaca;
+	background: url(../images/cien-footer.gif) top left no-repeat;
+	}
+	
+/* PODSTRONA - produkty */
+
+#slogan.produkty {
+	background: #33ca21 url(../images/top-tlo.jpg) repeat-x;
+	}
+#slogan.produkty .content {
+	height: 140px;
+	background: url(../images/top-produkty.jpg) no-repeat;
+	}
+	
+#slogan .content #motto.motto-produkty {
+	top: 40px;
+	left: 405px;
+}
+
+#slogan .content #motto.motto-produkty a {
+	background: url(../images/motto-produkty.png) no-repeat;
+}
+
+#main .box.produkty-opis ul {
+	list-style: none;
+	list-style-image: url(../images/strzalka-produkty.jpg);
+	padding: 10px 20px;
+	font-weight: bold;
+	}
+
+#main .box.produkty-opis h2 {
+	background: url(../images/naglowek1-produkty.jpg) no-repeat;
+	text-indent: -666em;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	}
+#main .box.produkty-cechy {
+	background: url(../images/ikonki-produkty.jpg) no-repeat;
+	padding-left: 90px;
+	margin-top: 40px;	
+	}
+	
+#main .box.produkty-cechy h2 {
+	text-indent: -666em;
+	}
+#main .box.produkty-cechy .produkt1 {
+	background: url(../images/naglowek2-produkty.jpg) no-repeat;
+	padding-top: 50px;
+	}
+#main .box.produkty-cechy .produkt2 {
+	background: url(../images/naglowek3-produkty.jpg) no-repeat;
+	padding-top: 50px;
+	}
